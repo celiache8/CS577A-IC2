@@ -11,7 +11,7 @@ public class reverseString{
 	// and the reversed string
 
 	String input = "Everything is awesome!";
-
+	String reversedInput = input.reverse();
     }
 
 }
