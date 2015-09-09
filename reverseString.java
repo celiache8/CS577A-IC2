@@ -11,7 +11,9 @@ public class reverseString{
 	// and the reversed string
 
 	String input = "Everything is awesome!";
-
+	
+	System.out.println(input);
+	System.out.println(new StringBuilder(input).reverse.toString());
     }
 
 }
