@@ -9,10 +9,13 @@ public class reverseString{
 	// reverse the input
 	// print out the original string
 	// and the reversed string
-
-	String input = "Everything is awesome!";
+	if (args.length < 1) {
+		System.out.println("Please input a string!");
+		return;
+	}
+	String input = args[0];
 	StringBuffer sb = new StringBuffer();
-        for(int i = 0, j = input.length()-1; j>=0;j--){
+        for(int j = input.length()-1; j>=0;j--){
                 sb.append(input.charAt(j));
         }
         System.out.println("Original String: "+input);
